@@ -61,7 +61,7 @@ class Block {
 
         // If squares are already rotating, keep rotating until angle = 360
         if (this.angle > 0 && this.angle < 360) {
-            this.angle += 10;
+            this.angle += 55;
         } else {
             this.angle = 0;
             if (!this.isX) {
